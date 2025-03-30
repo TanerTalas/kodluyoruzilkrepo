@@ -1,0 +1,151 @@
+body {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+h1{
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+a {
+    color: #373737;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Navigasyon - Start */
+
+.nav {
+    background-color: #FF6F00;
+    position: sticky;
+    top: 0;
+    border-radius: 50px;
+}
+
+.nav ul {
+    font-size: 20px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+.nav li {
+    background-color: #c5c5c5;
+    padding: 10px 60px 10px 60px;
+    border-radius: 40px;
+    font-style: normal;
+    box-shadow: -1px 1px 12px 1px;
+}
+
+.nav a {
+    text-decoration: none;
+    color:black;
+}
+
+/* Navigasyon - End */
+
+/* Ana Sayfa - Start */
+#anaSayfa {
+    background-color: #F8F9FA;
+    padding: 15px 30px 15px 30px;
+    width: 45%;
+    height: auto;
+    margin: auto;
+    border-radius: 70px;
+    box-shadow: -3px 3px 30px 1px;
+}
+
+#anaSayfa article {
+    background-color: #e8e8e8;
+    
+    width: 600px;
+    margin: auto;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    box-shadow: -7px 7px 20px 2px;
+}
+
+#anaSayfa article h1, h2 {
+    padding: 10px 0 0 0;
+
+}
+
+#anaSayfa article p {
+    padding: 0 25px 25px 25px;
+
+}
+
+/* Ana Sayfa - End */
+
+
+/* Paketler - Start */
+
+#paketler {
+    background-color: #F8F9FA;
+    padding: 35px;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap: 20px;
+
+    width: 45%;
+    margin: auto;
+    border-radius: 70px;
+    box-shadow: -3px 3px 30px 1px;
+
+}
+
+#aciklama {
+    background-color: #e8e8e8;
+    padding: 15px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 25px;
+    box-shadow: -7px 7px 20px 2px;
+}
+
+.paket {
+    background-color: #e0dc8c;
+    border-radius: 25px;
+    padding: 15px;
+    height: 200px;
+    border-radius: 25px;
+    box-shadow: -7px 7px 20px 2px;
+}
+
+#item1{
+    background-color: #d4d3bd;
+}
+
+.bos {
+    font-style: normal;
+    text-decoration: none;
+}
+/* Paketler - End */
+
+/* Hakkında - Start */
+.hakkindaVeIletisim {
+    background-color: #F8F9FA;
+    padding: 35px;
+    border-radius: 25px;
+    margin: auto;
+    border-radius: 70px;
+    box-shadow: -3px 3px 30px 1px;
+    width: 45%;
+}
+.hakkindaVeIletisim > article {
+    background-color: #e8e8e8;
+    padding: 7px 15px 15px 15px;
+    border-radius: 25px;
+    box-shadow: -7px 7px 20px 2px;
+}
+
+
+/* Hakkında - End */
