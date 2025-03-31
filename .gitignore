@@ -1,3 +1,12 @@
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
 README.md
-Gorseller/
-desktop.ini
+
+*.img
+*.jpg
+
+*.log
