@@ -6,9 +6,4 @@
 !.vscode/*.code-snippets
 README.md
 
-*.img
-*.jpg
-*.svg
-*.png
-
 *.log
