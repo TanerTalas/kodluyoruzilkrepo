@@ -8,5 +8,7 @@ README.md
 
 *.img
 *.jpg
+*.svg
+*.png
 
 *.log
