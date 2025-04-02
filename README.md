@@ -1,5 +1,5 @@
 # Patika Ilk Repo 
-Bu repo [Patika](https://www.Patika.org) Front-End Eğitiminde oluşturduğumuz ilk repo. İçerisinde README dosyası ve Patika sitesi için yaptığım projeler bulunuyor.
+Bu repo [Patika](https://www.Patika.dev) Front-End Eğitiminde oluşturduğumuz ilk repo. İçerisinde README dosyası ve Patika sitesi için yaptığım projeler bulunuyor.
 
 ![github](https://github.com/Kodluyoruz/taskforce/blob/main/git/odev1/figures/github.png)
 
