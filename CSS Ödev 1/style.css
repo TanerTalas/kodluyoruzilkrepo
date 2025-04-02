@@ -1,0 +1,173 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+}
+
+h1, h2 {
+    font-size: 20px;
+}
+
+/* Nav - Start */
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    height: 102vh;
+    width: 170px;
+    border: 1px solid black;
+    -webkit-box-shadow: 6px 0px 32px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 0px 32px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 0px 32px 0px rgba(0,0,0,0.75);
+}
+
+.navbarList {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.navbarList li {
+    position: relative;
+
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-left: 14px;
+    margin-right: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+
+}
+
+.navbarList li:hover {
+    color: rgb(84, 2, 2);
+    font-weight: bold;
+ 
+    -webkit-box-shadow: 0px 0px 36px 6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 36px 6px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 36px 6px rgba(0,0,0,0.75);
+}
+
+.navbarListItem {
+    display: block;
+    margin:0 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+    color: black;
+    text-decoration: none;
+}
+
+/* Nav - End */
+
+/* Main - Start */
+main {
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+    padding-right: 80px;
+}
+
+.kutu {
+    margin-top: 50px;
+}
+
+.kutu a{
+    font-weight: 600;
+    color: rgb(0, 53, 76);
+}
+
+/* Main - End */
+
+/* Footer - Start */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    height: 102vh;
+    width: 200px;
+    border: 1px solid black;
+
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    -webkit-box-shadow: inset 6px 0px 32px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 6px 0px 32px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 6px 0px 32px 0px rgba(0,0,0,0.75);
+}
+/* Footer - End */
+
+/* Paketler - Start */
+.packs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 34px;
+
+    height: 500px;
+
+    font-size: 14px;
+}
+
+.pack {
+    background-color: rgb(246, 246, 246);
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+    height: 200px;
+    padding: 18px;
+    
+}
+
+.pack h2 {
+    font-size: 16px
+}
+
+.fiyat {
+    color: burlywood;
+    border: 1px solid burlywood;
+    padding: 6px 10px 6px 10px;
+    border-radius: 25px;
+
+    display: inline-block;
+    margin-top: 40px;
+    text-decoration: none;
+    font-size: large;
+
+    font-weight: bold;
+}
+
+.green {
+    color: green;
+    border: 1px solid green;
+}
+
+.pack:hover {
+
+    -webkit-box-shadow: 0px 0px 36px 6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 36px 6px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 36px 6px rgba(0,0,0,0.75);
+}
+
+.parali:hover {
+    border: 3px solid burlywood;
+}
+
+.green:hover {
+    border: 3px solid green;
+}
+/* Paketler - End */
