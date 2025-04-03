@@ -1,0 +1,98 @@
+/*Logo - Start*/
+
+.resim {
+    text-align: center;
+    
+}
+
+.resim a:hover {
+    -webkit-box-shadow: 0px 0px 36px 6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 36px 6px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 36px 6px rgba(0,0,0,0.75);
+}
+
+/*Logo - End*/
+
+/*Nav - Start*/
+nav ul {
+    list-style-type: none ;
+    text-align: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navItem {
+    font-weight: 200;
+    font-size: 24px;
+    width: 160px;
+    color: black;
+}
+
+.navItem:hover {
+    text-decoration: none;
+    color: white;
+    width: 172px;
+    font-weight: 400;
+    -webkit-box-shadow: 0px 0px 36px 6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 36px 6px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 36px 6px rgba(0,0,0,0.75);
+    background-image: linear-gradient(to right, rgba(6, 194, 240, 0.988), rgb(1, 55, 79), rgba(6, 194, 240, 0.988));
+
+}
+
+/*Nav - End*/
+
+
+.iletisim {
+    padding-bottom: 100px;
+}
+
+/*Footer - Start*/
+footer {
+    position: absolute;
+}
+/*Footer - End*/
+
+/*Paketler - Start*/
+.golge {
+    background-image: linear-gradient(to right, rgba(221, 221, 221, 0.988), rgb(255, 255, 255), rgb(222, 222, 222));
+
+}
+
+.golge:hover {
+
+    -webkit-box-shadow: 0px 0px 18px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 18px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 18px 2px rgba(0,0,0,0.75);
+    font-weight: 500;
+}
+
+.golge a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+.golge a:hover {
+    width: 100px;
+    height: auto;
+    -webkit-box-shadow: 0px 0px 56px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 56px -14px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 56px -14px rgba(0,0,0,0.75);
+}
+
+.ucretsiz {
+    background-image: linear-gradient(to right, rgba(80, 227, 105, 0.988), rgb(0, 118, 27), rgb(62, 188, 83));
+}
+
+.ucretli {
+    background-image: linear-gradient(to right, rgba(196, 224, 10, 0.988), rgb(96, 152, 0), rgb(179, 216, 32));
+}
+/*Paketler - End*/
